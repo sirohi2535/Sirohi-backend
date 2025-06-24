@@ -1,15 +1,13 @@
-# Exported from Render on 2025-06-24
 services:
-  - type: web
-    name: sirohi-backend
-    runtime: python
-    repo: https://github.com/sirohi2535/next-video-starter
-    plan: free
-    envVars:
-      - key: PORT
-        sync: false
-    region: oregon
-    buildCommand: pip install -r requirements.txt
-    startCommand: python main.py
-    autoDeployTrigger: commit
+- type: web
+  name: sirohi-backend
+  runtime: python
+  repo: https://github.com/sirohi2535/Sirohi-backend
+  plan: free
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python main.py
+  envVars:
+  - key: PORT
+    value: 10000
 version: "1"
