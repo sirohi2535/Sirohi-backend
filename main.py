@@ -2,17 +2,15 @@
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
-from gtts import gTTS
+from gtts import gTTs
 from PIL import Image
 
 from flask import Flask, request, send_file
-from gtts import gTTSU nano 6.2                                                                         main.py
-
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from gtts import gTTS
-from PIL import image
+from PIL import imag
 from flask import Flask, request, send_file
 from gtts import gTTS
 import os
